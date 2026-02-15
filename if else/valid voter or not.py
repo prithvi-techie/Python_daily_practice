@@ -1,6 +1,0 @@
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-if age >=18:
-    print(f"Hello {name} you are a valid voter")
-else:
-    print("You are not eligible for voting")
