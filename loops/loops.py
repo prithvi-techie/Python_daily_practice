@@ -55,11 +55,52 @@ for i in range(1,n+1):
 print(fact)"""
 
 # find summ of all the factorials of number
-n = int(input("Enter no. to find sum of facto: "))
+"""n = int(input("Enter no. to find sum of facto: "))
 sum =0
 for i in range(1,n+1):
     if n%i==0:
         sum = sum+i
-print(sum)
+print(sum)"""
 
+# print natural number upto n
+"""n = int(input("Enter your number: "))
+for i in range(1,n+1):
+    print(i)
+"""
+#take a number as input and print its table
+"""n = int(input("Enter your number: "))
+for i in range(1,11):
+    print(n,"x",i,"=",n*1)"""
+
+#sum upto n numbers
+"""n = int(input("enter the number: "))
+sum = 0
+for i in range(1,n+1):
+    sum = sum+i
+print(sum)"""
+
+# find if its perfect number or not
+# perfect number = sum of its factors
+"""n = int(input("Enter the number: "))
+sum = 0
+for i in range(1,n):
+    if n%i==0:
+        sum = sum+i
+if sum==n:
+    print("perfect")
+else:
+    print("not perfect")"""
+
+#sum of even and odd numbers separately
+"""n = int(input("Enter the number: "))
+odd = 0
+even = 0
+for i in range(1,n+1):
+    if i%2==0:
+        even = even+i
+    else:
+        odd = odd+i
+print("sum of even numbers:",even)
+print("sum of odd numbers:",odd)
+print("even: ",even+i)"""
 
