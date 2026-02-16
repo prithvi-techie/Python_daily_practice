@@ -47,6 +47,19 @@ for i in range(1,11):
         continue
     else:
         print(i)"""
+# factorial
+"""n = int(input("Enter the numebr to find factorial: "))
+fact = 1
+for i in range(1,n+1):
+    fact = fact*i
+print(fact)"""
 
+# find summ of all the factorials of number
+n = int(input("Enter no. to find sum of facto: "))
+sum =0
+for i in range(1,n+1):
+    if n%i==0:
+        sum = sum+i
+print(sum)
 
 
