@@ -104,3 +104,5 @@ print("sum of even numbers:",even)
 print("sum of odd numbers:",odd)
 print("even: ",even+i)"""
 
+# print 1 to 30 numbers
+#for loops
