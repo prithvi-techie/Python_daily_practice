@@ -104,7 +104,7 @@ print("sum of even numbers:",even)
 print("sum of odd numbers:",odd)
 print("even: ",even+i)"""
 
-# print 1 to 30 numbers
+"""# print 1 to 30 numbers
 #for loops
 for i in range(1,31):
     print(i,end=",")
@@ -113,4 +113,18 @@ for i in range(1,31):
 a = 0
 while a<=30:
     a+=1
-    print(a,end=",")
+    print(a,end=",")"""
+
+"""# pallindrome
+a = int(input("Enter a number: "))
+copy = a
+rev = 0
+while a>0:
+    rev = rev*10 +a%10
+    a = a//10
+if copy<0:
+    print("negative numbers are not pallindrome")
+elif copy==rev:
+    print("pallindrome")
+else:
+    print("not a pallindrome")"""
