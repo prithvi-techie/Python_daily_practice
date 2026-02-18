@@ -106,3 +106,11 @@ print("even: ",even+i)"""
 
 # print 1 to 30 numbers
 #for loops
+for i in range(1,31):
+    print(i,end=",")
+
+# while loop
+a = 0
+while a<=30:
+    a+=1
+    print(a,end=",")
