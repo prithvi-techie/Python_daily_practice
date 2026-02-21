@@ -128,3 +128,37 @@ elif copy==rev:
     print("pallindrome")
 else:
     print("not a pallindrome")"""
+
+#1 to 10
+"""for i in range(1,11):
+    print(i)"""
+
+#1 to 20 even numbers
+"""for i in range(1,21):
+    if i%2==0:
+        print(i)"""
+
+# tabel of 7 (7x1=7)
+"""n = 7
+for i in range(1,11):
+    print(n,"x",i,"=",n*i)"""
+
+#find the sum of numbers from 1 to 50
+"""sum = 0
+for i in range(1,51):
+    sum = sum+i
+print("sum is:",sum)"""
+
+#factorial
+"""n = int(input("Enter the number to find factorial: "))
+fcat = 1
+for i in range(1,n+1):
+    fcat = fcat*i
+print(fcat)"""
+
+#while loops 1 to 10
+"""i = 1
+while i<11:
+    print(i)
+    i+=1"""
+#
