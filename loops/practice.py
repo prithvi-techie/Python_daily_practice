@@ -161,4 +161,22 @@ print(fcat)"""
 while i<11:
     print(i)
     i+=1"""
-#
+
+#guess game 
+"""import random
+num = random.randint(1,10)
+tries = 0
+while True:
+    guess = int(input("Enter your guessed numebr between 1 to 10: "))
+    tries+=1
+
+    if guess == num:
+        print(f"You guess the right number in {tries} tries")
+        break
+    elif guess<1 or guess>10:
+        print("out of range")
+
+    elif num<=guess:
+        print("please go a little lower")
+    else:
+        print("please go a little higher")"""
