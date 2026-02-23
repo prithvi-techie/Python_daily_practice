@@ -180,3 +180,49 @@ while True:
         print("please go a little lower")
     else:
         print("please go a little higher")"""
+
+# define a function
+"""def sum(a,b):
+    print(f"the sum is {a+b}")
+sum(12,12)"""
+
+#
+"""i = 1
+while i<=10:
+    print(i)
+    i+=1"""
+
+#
+"""for i in range(10,0,-1):
+    print(i)"""
+"""count = 10
+while count >=1:
+    print(count)
+    count-=1"""
+# sum of 10 natural numbers
+"""count = 0
+i =1
+while i<=10:
+    count= count+i
+    i+=1
+print(count)"""
+
+# multiplication
+#for
+"""n = int(input("Enter the number: "))
+
+for i in range(1,11):
+    
+    print(n,"x",i,"=",n*i)"""
+#while
+"""n = int(input("Enter the number:"))
+i = 1
+
+while i<=10:
+    print(n,"x",i,"=",n*i)
+    i+=1"""
+
+#count number of digit
+#for
+n = int(input("Enter the number: "))
+for i in range()
