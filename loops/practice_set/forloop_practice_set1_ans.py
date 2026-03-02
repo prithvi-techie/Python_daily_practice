@@ -19,3 +19,9 @@ for i in range(1,31):
 for i in range(1,11):
     print(f"{n} x {i} = {n*i}")"""
 
+#Find the sum of all numbers from 1 to n (n given by user).
+"""a = 0
+n = int(input("Enter the number: "))
+for i in range(1,n+1):
+    a = a+i
+print(a)"""
