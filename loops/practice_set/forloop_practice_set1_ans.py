@@ -13,3 +13,9 @@ for i in range(1,31):
         a = a+i
     else:
         print(i)"""
+
+#Print the multiplication table of any number (user input) up to 10.
+"""n = int(input("Enter athe number: "))
+for i in range(1,11):
+    print(f"{n} x {i} = {n*i}")"""
+
