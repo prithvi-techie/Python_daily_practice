@@ -224,5 +224,3 @@ while i<=10:
 
 #count number of digit
 #for
-n = int(input("Enter the number: "))
-for i in range()
