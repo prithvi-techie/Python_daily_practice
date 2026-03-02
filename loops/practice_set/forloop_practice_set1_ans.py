@@ -25,3 +25,18 @@ n = int(input("Enter the number: "))
 for i in range(1,n+1):
     a = a+i
 print(a)"""
+
+#Find the factorial of a number using a for loop.
+"""n  = int(input("Enter a number: "))
+a = 1
+for i in range(1,n+1):
+    a = a*i
+print(a)"""
+
+#Count how many numbers between 1 and 100 are divisible by 7.
+"""count = 0
+for i in range(1,100):
+    if i%7==0:
+        count = count +1
+print(count)"""
+
