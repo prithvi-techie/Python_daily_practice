@@ -104,19 +104,19 @@ print("sum of even numbers:",even)
 print("sum of odd numbers:",odd)
 print("even: ",even+i)"""
 
-"""# print 1 to 30 numbers
-#for loops
+# print 1 to 30 numbers
+"""#for loops
 for i in range(1,31):
-    print(i,end=",")
+    print(i,end=",")"""
 
 # while loop
-a = 0
+"""a = 0
 while a<=30:
     a+=1
     print(a,end=",")"""
 
-"""# pallindrome
-a = int(input("Enter a number: "))
+# pallindrome
+"""a = int(input("Enter a number: "))
 copy = a
 rev = 0
 while a>0:
@@ -231,10 +231,13 @@ while i<=10:
     print()"""
 
 
-for row in range(6):
-    num =1
-    for col in range(row+1):
-        print(num, end=" ")
-        num+=1
-    print()
-
+# prime or not
+"""count=0
+n = int(input("Enter a number: "))
+for i in range(1,n+1):
+    if n%i==0:
+        count+=1
+if count == 2:
+    print("prime")
+else:
+    print("not prime")"""
