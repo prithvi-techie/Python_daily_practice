@@ -1,0 +1,11 @@
+# skeleton code for patterns
+
+for i in range( , ):
+    for j in range( , ):
+        if  :
+            print("*",end="") #print star
+        else:
+            print(" ",end="") #print space 
+    print() #next line 
+
+ALL WE NEED IS (if) CONDITION
