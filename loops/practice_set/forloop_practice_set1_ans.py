@@ -40,3 +40,15 @@ for i in range(1,100):
         count = count +1
 print(count)"""
 
+#Check whether a number is Prime using range().
+"""n = int(input("Enter a number: "))
+
+
+if n<1:
+    print("not prime")
+else:
+    for i in range()
+    if n%i ==0:
+
+    """
+        

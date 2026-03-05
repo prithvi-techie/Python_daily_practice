@@ -222,5 +222,19 @@ while i<=10:
     print(n,"x",i,"=",n*i)
     i+=1"""
 
-#count number of digit
-#for
+
+"""for row in range(6):
+    num =1
+    for col in range(row+1):
+        print(num, end=" ")
+        num+=1
+    print()"""
+
+
+for row in range(6):
+    num =1
+    for col in range(row+1):
+        print(num, end=" ")
+        num+=1
+    print()
+
