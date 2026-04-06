@@ -1,0 +1,6 @@
+"""
+A    A
+AB  BA
+ABC CBA
+ABCDDCBA
+"""

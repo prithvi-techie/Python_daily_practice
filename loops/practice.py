@@ -234,10 +234,22 @@ while i<=10:
 # prime or not
 """count=0
 n = int(input("Enter a number: "))
-for i in range(1,n+1):
+for i in range(1,n+1):u754
     if n%i==0:
         count+=1
 if count == 2:
     print("prime")
 else:
     print("not prime")"""
+
+#
+"""a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+c = int(input("Enter the third number: "))
+
+if a*b >  b*c and c*a:
+    print(a*b)
+elif b*c > c*a:
+    print(b*c)
+else:
+    print(c*a)"""
