@@ -1,21 +1,7 @@
-"""
-*
-**
-***
-****
-*****
-
-
-for i in range(5):
-    for j in range(5):
-        if j<=i:
-            print("*",end=" ")
-    else:
-        print() """
-
-#sum of n natural number
-n = int(input("Enter the number: "))
-sum = 0
-for i in range(1,n+1):
-    sum+=i
-print("the sum of n natural number : ",sum)
+year = int(input("Enter the year: "))
+if year%100==0 and year%400==0:
+    print("leap")
+elif year%4==0:
+    print("leap")
+else:
+    print("not leap")
