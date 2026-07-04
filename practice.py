@@ -1,7 +1,13 @@
-year = int(input("Enter the year: "))
-if year%100==0 and year%400==0:
-    print("leap")
-elif year%4==0:
-    print("leap")
-else:
-    print("not leap")
+n = int(input("Enter the num: "))
+even = 0
+odd=0
+for i in range(1,n+1):
+    if i%2==0:
+        even=even+i
+    else:
+        odd=odd+i
+print("even sum: ",even)
+print("odd sum: ",odd)
+
+
+        
