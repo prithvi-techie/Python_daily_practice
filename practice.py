@@ -1,10 +1,7 @@
-n = int(input("Enter the num: "))
-sum=0
-for i in range(1,n):
-    if n%i==0:
-        sum= sum+i
-if sum==n:
-        print("perfect no.")
+str = input("enter your name: ")
+
+
+if str==(str[::-1]):
+    print("pallindorme")
 else:
-        print("not perfect")
-    
+    print("not")
