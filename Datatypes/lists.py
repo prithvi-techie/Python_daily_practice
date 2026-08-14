@@ -1,32 +1,86 @@
-# # odd even
+#################### odd even from list
+# l = [1,2,3,4,5,6]
+# print("even :")
 
-# l = [1,2,3,4,5]
-# b = []
-
-# print("even numbers: ")
 # for i in l:
 #     if i%2==0:
 #         print(i)
 
-# print("odd numbers: ")
+# print("odd :")
+
 # for i in l:
-#     if i%2 !=0 :
+#     if i%2!=0:
 #         print(i)
 
-# # mean of all elements
-
+# #mean of list
+# sum =0
 # l = [1,2,3,4,5]
-# add = 0
-
 # for i in l:
-#     add = add+i
+#     sum+=i
+#     average=sum/len(l)
+# print(int(average))
 
-# count = len(l)
-# mean = add/count
-# print("mean: ",mean)
+####################find the greatest element and print its index to 
 
-# find the greatest element print its index too
+# l = [14,15,245,486,45,75,154]
+# largest = l[0]
+# index = 0
 
-l = [2,1,3,6,5]
-sort = l.sort
-print(sort)
+# for i in range(len(l)):
+#     if l[i]>largest:
+#         largest=l[i]
+#         index=i
+#     else:
+#         continue
+# print(f"largest no : {largest}, index of largest no: {index}")
+
+#################### find the 2nd greatest number (using 2 loops)
+
+# l =[451,865,471,259,954,254,15,145]
+# largest = l[0]
+
+# for i in range(len(l)):
+#     if l[i]>largest:
+#         largest = l[i]
+#     else:
+#         continue
+# l.remove(largest)
+# s_largest=l[0]
+# for i in range(len(l)):
+#     if l[i]>s_largest:
+#         s_largest=l[i]
+#     else:
+#         continue
+# print(l)
+# print(f"largest: {largest}, second largest: {s_largest}")
+
+#################### using algo
+
+# l = [1,5,7,4,10]
+# largest = l[0]
+# indexl = 0
+# s_largest = l[0]
+# indexs = 0
+# for i in range(len(l)):
+#     if l[i]>largest:
+#         s_largest = largest
+#         indexs = indexl
+#         largest=l[i]
+#         indexl = i
+        
+#     elif l[i]>s_largest:
+#         s_largest = l[i]
+#         indexs = i
+# print(l)
+# print(f"largest: {largest} index: {indexl}, second largest: {s_largest} index: {indexs}")
+
+####################check if list is sorted or not
+l  = [12,13,14,15]
+for i in range(len(l)-1):
+    if l[i] < l[i+1]:
+        continue
+    else:
+        print("not sorted")
+        break
+else:
+    print("sorted")
