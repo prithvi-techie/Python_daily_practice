@@ -75,12 +75,12 @@
 # print(f"largest: {largest} index: {indexl}, second largest: {s_largest} index: {indexs}")
 
 ####################check if list is sorted or not
-l  = [12,13,14,15]
-for i in range(len(l)-1):
-    if l[i] < l[i+1]:
-        continue
-    else:
-        print("not sorted")
-        break
-else:
-    print("sorted")
+# l  = [12,13,14,15]
+# for i in range(len(l)-1):
+#     if l[i] < l[i+1]:
+#         continue
+#     else:
+#         print("not sorted")
+#         break
+# else:
+#     print("sorted")
