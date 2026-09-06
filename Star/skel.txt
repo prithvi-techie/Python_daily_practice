@@ -9,3 +9,4 @@ for i in range( , ):
     print() #next line 
 
 ALL WE NEED IS (if) CONDITION
+# hiring an hitman _ 6 september 2026 evening 
